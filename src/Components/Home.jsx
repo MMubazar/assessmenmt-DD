@@ -11,13 +11,9 @@ const Home = () => {
               <div className="col-md-6">
                 <img src={Image} className="width-100" alt="image" />
               </div>
-              {/* <!--end col-sm-6--> */}
 
-              {/* <!--begin col-md-6--> */}
               <div className="col-md-6 margin-top-50">
-                {/* <!--begin small-column-inside--> */}
                 <div className="small-col-inside">
-                  {/* <!--begin register-form-wrapper--> */}
                   <div
                     className="register-form-wrapper wow bounceIn"
                     data-wow-delay="0.5s"
@@ -35,9 +31,7 @@ const Home = () => {
                       quote.
                     </p>
 
-                    {/* <!--begin form--> */}
                     <div>
-                      {/* <!--begin success message --> */}
                       <p
                         className="register_success_box"
                         style={{ display: "none" }}
@@ -45,9 +39,7 @@ const Home = () => {
                         We received your message and you'll hear from us soon.
                         Thank You!
                       </p>
-                      {/* <!--end success message --> */}
 
-                      {/* <!--begin register form --> */}
                       <form
                         id="register-form"
                         className="register-form register"
@@ -92,27 +84,18 @@ const Home = () => {
                           type="submit"
                         />
                       </form>
-                      {/* <!--end register form --> */}
 
                       <p className="register-form-terms">
                         Competitive On Price &#8226; TrustMark Accredited
                       </p>
                     </div>
-                    {/* <!--end form--> */}
                   </div>
-                  {/* <!--end register-form-wrapper--> */}
                 </div>
-                {/* <!--end small-column-inside--> */}
               </div>
-              {/* <!--end col-sm-6--> */}
             </div>
-            {/* <!--end row--> */}
           </div>
-          {/* <!--end container--> */}
         </div>
-        {/* <!--section-blue--> */}
       </section>
-      {/* <!--end hero-wrapper --> */}
     </>
   );
 };

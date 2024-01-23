@@ -4,27 +4,18 @@ import Image from "../assets/images/electrician2.jpg";
 const Electrician2 = () => {
   return (
     <>
-      {/* <!--begin section-grey --> */}
       <section className="section-grey no-padding">
-        {/* <!--begin container--> */}
         <div className="container-fluid px-0">
-          {/* <!--begin row--> */}
           <div className="row no-gutters">
-            {/* <!--begin col-md-6--> */}
             <div className="col-md-6">
               <img src={Image} className="width-100" alt="Electrician2" />
             </div>
-            {/* <!--end col-sm-6--> */}
 
-            {/* <!--begin col-md-6--> */}
             <div className="col-md-6 margin-top-60">
-              {/* <!--begin small-column-inside--> */}
               <div className="small-col-inside">
                 <h3>Discover Our Main Benefits</h3>
 
-                {/* <!--begin accordion --> */}
                 <div className="accordion" id="accordionFAQ">
-                  {/* <!--begin card --> */}
                   <div className="card">
                     <div className="card-header" id="headingOne">
                       <h5 className="mb-0">
@@ -55,9 +46,7 @@ const Electrician2 = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <!--end card --> */}
 
-                  {/* <!--begin card --> */}
                   <div className="card">
                     <div className="card-header" id="headingTwo">
                       <h5 className="mb-0">
@@ -89,9 +78,7 @@ const Electrician2 = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <!--end card --> */}
 
-                  {/* <!--begin card --> */}
                   <div className="card">
                     <div className="card-header" id="headingThree">
                       <h5 className="mb-0">
@@ -123,9 +110,7 @@ const Electrician2 = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <!--end card --> */}
 
-                  {/* <!--begin card --> */}
                   <div className="card">
                     <div className="card-header" id="headingFour">
                       <h5 className="mb-0">
@@ -157,19 +142,12 @@ const Electrician2 = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <!--end card --> */}
                 </div>
-                {/* <!--end accordion --> */}
               </div>
-              {/* <!--end small-column-inside--> */}
             </div>
-            {/* <!--end col-sm-6--> */}
           </div>
-          {/* <!--end row--> */}
         </div>
-        {/* <!--end container--> */}
       </section>
-      {/* <!--end section-grey --> */}
     </>
   );
 };
